@@ -1,0 +1,21 @@
+{
+  "manifest": "1",
+  "client_id": "1409708070",
+  "version": "1.0.0",
+  "callback_url": "https://techaz-weebly.herokuapp.com/oauth/phase-one", 
+  "oauth_final_destination": "home",
+  "webhooks": {
+    "callback_url": "https://techaz-weebly.herokuapp.com/webhooks/callback",
+    "events": [
+      "user.update","site.publish", "site.delete", "app.uninstall"
+    ]
+  },
+  "scopes": [
+    "read:user",
+    "read:site"
+  ],
+  "locale": {
+    "default": "en-us",
+    "supported": ["en-us"]
+  }
+}

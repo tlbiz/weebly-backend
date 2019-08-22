@@ -1,0 +1,25 @@
+{
+	"name": "node-webhook-client",
+	"version": "1.1.2",
+	"description": "Subscribes and handles receiving Weebly Webhook events.",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"test": "echo \"no tests specified\" && exit 1"
+	},
+	"author": "Weebly",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "~1.17.1",
+		"cookie-parser": "~1.4.3",
+		"debug": "~2.6.3",
+		"dotenv": "^4.0.0",
+		"express": "^4.16.3",
+		"hbs": "~4.0.1",
+		"jsonwebtoken": "^5.4.0",
+		"needle": "^2.2.1"
+	},
+	"engines": {
+		"node": "8.11.1"
+	}
+}
